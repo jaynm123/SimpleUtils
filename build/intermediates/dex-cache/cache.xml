@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_79275597b7de4895eaca22027a3f441c6f780ddf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_12371663c7a21abd2417fcd38cfed5eed313c43f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.yanzhenjie.alertdialog\alertdialog\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7b3e997517ba1b2ef7d22f0aabec3efbd598b613">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.yanzhenjie.alertdialog-alertdialog-1.0.0_7fb3c2358f446c59e161a29c3f1d782da9cb6294.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_2131b376403a062579461cafd8e54a1ec0ec6d44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.zhy\okhttputils\2.6.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="155fef2600f48631a9e9665c0873743b6d24e324">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.zhy-okhttputils-2.6.2_4716f6241df98d388b1c980a5efb890095a45f49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_aeeb6cb838ff9823cbdbcbd2abef807022b6d4f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_f19de38d3b7accc2915086adcc5be9d7486b9b2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_59e56121e05aea31d43bcc1b90b060e7aefd920c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_ebcf359916918fd83f76531dc6107b5382dd8f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_6a6cadc103b8b67534a18ed0a7a1d153a5391b7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\gson-2.8.0_eca52502deb48db964b5e6d39d16c5eaa7bb0998.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_c60f5726d3508098d2cd7645927e89f812bf9d48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_a99a658059cee093e9e836d2a3a5edbe9f813697.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\asSpace\CH\app\build\intermediates\exploded-aar\com.yanzhenjie\permission\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1aa28b11440779f8a6b0023688e283e9a0dcbb39">
+        <dex dex="D:\android\asSpace\CH\app\build\intermediates\pre-dexed\debug\com.yanzhenjie-permission-1.0.5_30bf060bb0ea4ace99f68952837a26b2236c06af.jar" />
+    </item>
+
+</items>
