@@ -18,8 +18,13 @@ public class SimpleGlideModule implements GlideModule {
 
     @Override
     public void applyOptions(Context context, GlideBuilder glideBuilder) {
-         glideBuilder.setDecodeFormat(DecodeFormat.PREFER_RGB_565);
-        File file = context.getExternalCacheDir();
+        File file = null;
+        if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())
+                || !Environment.isExternalStorageRemovable()) {
+            file = context.getExternalCacheDir();
+        } else {
+            file = context.getCacheDir();
+        }
         if (!file.exists()) {
             file.mkdirs();
         }
