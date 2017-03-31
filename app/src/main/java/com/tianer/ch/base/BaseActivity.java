@@ -27,6 +27,7 @@ public class BaseActivity extends FragmentActivity {
     private ProgressDialog dialog;
     private View view;
     private ImageView iv_loading;
+    private SharedPreferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -166,7 +167,9 @@ public class BaseActivity extends FragmentActivity {
      * @return
      */
     public String getValueByKey(String key) {
-        SharedPreferences preferences = context.getSharedPreferences("bainianegou", Context.MODE_PRIVATE);
+        if(preferences==null){
+            preferences = context.getSharedPreferences("bainianegou", Context.MODE_PRIVATE);
+        }
         return preferences.getString(key, "");
     }
 
@@ -177,7 +180,9 @@ public class BaseActivity extends FragmentActivity {
      * @param value
      */
     public void putValueByKey(String key, String value) {
-        SharedPreferences preferences = context.getSharedPreferences("bainianegou", Context.MODE_PRIVATE);
+        if(preferences==null){
+            preferences = context.getSharedPreferences("bainianegou", Context.MODE_PRIVATE);
+        }
         preferences.edit().putString(key, value).commit();
     }
 
