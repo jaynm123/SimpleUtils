@@ -18,14 +18,13 @@ public class SimpleGlideModule implements GlideModule {
 
     @Override
     public void applyOptions(Context context, GlideBuilder glideBuilder) {
-        glideBuilder.setDecodeFormat(DecodeFormat.PREFER_RGB_565);
-        String path = context.getExternalCacheDir().getPath();
-        File file = new File(path);
+         glideBuilder.setDecodeFormat(DecodeFormat.PREFER_RGB_565);
+        File file = context.getExternalCacheDir();
         if (!file.exists()) {
             file.mkdirs();
         }
         int cacheSize100MegaBytes = 104857600;
-        glideBuilder.setDiskCache(new DiskLruCacheFactory(path, cacheSize100MegaBytes));
+        glideBuilder.setDiskCache(new DiskLruCacheFactory(file.getPath(), cacheSize100MegaBytes));
     }
 
     @Override
