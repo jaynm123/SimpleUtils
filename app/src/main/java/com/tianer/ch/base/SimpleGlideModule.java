@@ -16,19 +16,16 @@ import java.io.File;
  */
 public class SimpleGlideModule implements GlideModule {
 
-    private String basePath = "/bainianegou/cache";
-
     @Override
     public void applyOptions(Context context, GlideBuilder glideBuilder) {
         glideBuilder.setDecodeFormat(DecodeFormat.PREFER_RGB_565);
-        String downloadDirectoryPath = Environment.getExternalStorageDirectory() + basePath;
-        File file = new File(downloadDirectoryPath);
+        String path = context.getExternalCacheDir().getPath();
+        File file = new File(path);
         if (!file.exists()) {
             file.mkdirs();
         }
         int cacheSize100MegaBytes = 104857600;
-        glideBuilder.setDiskCache(new DiskLruCacheFactory(downloadDirectoryPath, cacheSize100MegaBytes));
-
+        glideBuilder.setDiskCache(new DiskLruCacheFactory(path, cacheSize100MegaBytes));
     }
 
     @Override
